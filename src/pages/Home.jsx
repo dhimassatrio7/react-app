@@ -1,13 +1,13 @@
-import Header from "../components/Header";
-import FooterComp from "../components/FooterComp";
 import Content from "./Content";
+import FooterComponent from "../components/FooterComponent";
+import NavbarComponent from "../components/NavbarComponent";
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <NavbarComponent />
       <Content />
-      <FooterComp />
+      <FooterComponent />
     </>
   );
 };

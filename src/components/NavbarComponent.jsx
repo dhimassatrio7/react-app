@@ -1,9 +1,10 @@
 import { Navbar } from "flowbite-react";
 
-const Header = () => {
+const NavbarComponent = () => {
   return (
     <Navbar className="p-6 bg-slate-400 sticky top-0" fluid rounded>
       <Navbar.Brand>Navbar</Navbar.Brand>
+
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Navbar.Link href="#">Home</Navbar.Link>
@@ -16,4 +17,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavbarComponent;
